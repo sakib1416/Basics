@@ -8,6 +8,7 @@ app.get("/", (req,res) =>{
 
 app.get("/start", (req,res) => {
     res.send("This is the starting page");
+    console.log("You reached start page");
 });
 
 app.get("/end", (req,res) => {
