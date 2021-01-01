@@ -3,6 +3,7 @@ const app = express();
 
 app.get("/", (req,res) =>{
     res.send("Testing");
+    console.log("You reached home page");
 });
 
 app.get("/start", (req,res) => {
